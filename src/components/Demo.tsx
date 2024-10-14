@@ -1,14 +1,7 @@
 import React, { useReducer } from "react";
 import { Button } from "@/components/ui/button";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface State {
   count: number;
